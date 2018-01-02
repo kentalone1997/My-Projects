@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://chemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/addPic"
+        android:icon="@drawable/ic_add_to_photos"
+        android:title="@string/addPic"  />
+    <item
+        android:id="@+id/cropPic"
+        android:icon="@drawable/ic_crop"
+        android:title="@string/cropPic" />
+
+    <item
+        android:id="@+id/gridPic"
+        android:title="@string/grid"
+        android:icon="@drawable/ic_grid_off"
+        />
+
+    <item
+        android:id="@+id/rotatePic"
+        android:title="@string/rotatePic"
+        android:icon="@drawable/ic_rotate" />
+    <item
+        android:id="@+id/drawPic"
+        android:title="@string/drawPic"
+        android:icon="@drawable/ic_edit_white_24dp"/>
+
+
+</menu>

@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">Photo App</string>
+
+    <string name="camera">Camera</string>
+    <string name="text_camera">No Info</string>
+    <string name="edit">Effect</string>
+    <string name="text_edit">No Info</string>
+    <string name="info">Info</string>
+    <string name="text_info">No Info</string>
+    <string name="exit">Exit</string>
+    <string name="text_exit">No Info</string>
+
+    <string name="request_permission">Request Permission</string>
+    <string name="addPic">Add</string>
+    <string name="cropPic">Crop</string>
+    <string name="rotatePic">Rotate</string>
+    <string name="grid">Grid</string>
+    <string name="zoomIn">Zoom In</string>
+    <string name="zoomOut">Zoom Out</string>
+    <string name="drawPic">Draw</string>
+    <string name="version_app">Version 1.0</string>
+    <string name="info_student_01">Developed by Le Nhut Vinh - 15521016</string>
+    <string name="language">Language</string>
+    <string name="viet">Tiếng Việt</string>
+    <string name="english">English</string>
+    <string name="logo">Đồ án Nhập Môn Ứng Dụng Di Động</string>
+
+</resources>
