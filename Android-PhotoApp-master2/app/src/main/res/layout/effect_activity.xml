@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:design="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:fitsSystemWindows="true">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        android:visibility="visible"
+        android:background="@color/colorPrimaryDark"
+
+        android:gravity="center">
+        <ImageButton
+            android:id="@+id/btnCancel"
+            android:contentDescription="@null"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+
+            android:background="@color/colorPrimaryDark"
+            android:scaleType="fitCenter"
+            android:layout_marginStart="10dp"
+
+            android:layout_gravity="center"/>
+        <TextView
+            android:contentDescription="@null"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="@string/app_name"
+            android:layout_weight="1"
+            android:textAlignment="center"
+            android:layout_gravity="center"/>
+        <ImageButton
+            android:id="@+id/btnSave"
+            android:contentDescription="@null"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:background="@color/colorPrimaryDark"
+
+            android:layout_marginEnd="10dp"
+
+            android:scaleType="fitCenter" />
+
+    </LinearLayout>
+
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <uit.nhutvinh.model.EffectView
+            android:id="@+id/imgPic"
+            android:layout_width="match_parent"
+            android:layout_height="450dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="30dp"
+            android:drawingCacheQuality="high"
+
+            android:layout_marginRight="30dp"
+            android:layout_marginTop="10dp"
+            android:adjustViewBounds="true"
+            android:contentDescription="@null"
+
+            android:scaleType="matrix" />
+
+        <ImageView
+            android:id="@+id/imgGrid"
+            android:layout_width="match_parent"
+            android:layout_height="450dp"
+
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginTop="10dp"
+
+
+            android:adjustViewBounds="true"
+            android:background="@drawable/bor"
+            android:contentDescription="@null" />
+
+    </FrameLayout>
+
+
+    <android.support.design.widget.BottomNavigationView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/navBot"
+        android:layout_gravity="bottom"
+        design:menu="@menu/menu_effect">
+
+    </android.support.design.widget.BottomNavigationView>
+</LinearLayout>
